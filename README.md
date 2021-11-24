@@ -1,32 +1,33 @@
 # COVID-19 Tracker
+Track current and historical covid-19 data of India and its states and union territories.  
 
+---
 <p align="center">
-<img src="./src/assets/covid-india-tracker.png" width="100%">
+<img src="https://github.com/snehakweera77/COVID-19-Tracker/blob/master/demo.gif" width="100%"/>
 </p>
 
 <p align="center">
-  View <a href="https://covidindiatracker.netlify.app/">Covid-19 India Tracker</a>
+  <a href="https://covid19-25a22.web.app/">Covid-19 India Tracker - Live</a>
 </p>
 
-## Project Setup
+---
+## Features -
 
-```
-npm install
-```
+- #### Interactive map
 
-## Run Locally
+  A map of India where user can hover over any state or UT and the information gets displayed
 
-```
-npm start
-```
+- #### Graphs to display historical data
 
-## Contribute
+  Graphs to display daily or cumulative data for confirmed, active, recovered and deceased cases.
 
-Covid-19 India Tracker is an open source project. So, feel free to contribute. And if you're new to contributing to Open Source on Github, then [this guide](https://guides.github.com/activities/contributing-to-open-source/) will help you.
+- #### Sorted Data table
+  A simple table that can be sorted by any column
 
-If you find any error or have any suggestion, feel free to create an [issue](https://github.com/PrinceSumberia/covid-19-tracker/issues/new).
+## Tech Stack
+- [React](https://es.reactjs.org/) - Front-End JavaScript library
+- [Material UI](https://material-ui.com/) - React UI Framework
+- [react-chartjs](https://recharts.org/en-US/) - A composable charting library built on React components
+- [Axios](https://github.com/axios/axios) - Promise based HTTP client
 
-## Credits
-
-- Thanks, [@covid19india](https://github.com/covid19india) for the awesome [API](https://api.covid19india.org/). Was previously using [this API](https://api.rootnet.in/covid19-in/)
-- Thanks, [Drawer](https://drawer.design/products/coronavirus-icons) for the awesome Icons.
+---
